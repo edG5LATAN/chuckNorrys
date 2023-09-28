@@ -1,0 +1,28 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 40px;
+  background-color:rgb(7, 163, 7);
+}
+.header-icon{
+  width: 70px;
+
+}
+.header-icon img{
+  width: 90%;
+  /* border-radius: 50%; */
+}
+img:hover{
+ background-color: yellow;
+}
+nav{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li{
+  list-style: none;
+}
+

@@ -1,0 +1,20 @@
+.home{
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(127, 211, 127);
+}
+.home-contenedor{
+  width: 50%;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 1em;
+}
