@@ -8,9 +8,9 @@ function Header() {
         <img src="img/iconoChuck.png" alt="icono header"/>
       </div>
       <nav>
-        <ul>
-         <li>The best Joks of CHUCK NORRYS</li>
-        </ul>
+       
+         <h4>THE BEST JOKS OF CHUCK NORRYS</h4>
+   
       </nav>
     </div>
   )

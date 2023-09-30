@@ -1,0 +1,9 @@
+select{
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  padding: 5px 3px;
+  border:none;
+  border-radius: 5px;
+  box-shadow: 3px 2px 2px ;
+}
