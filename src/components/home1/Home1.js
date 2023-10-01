@@ -83,7 +83,7 @@ function Home1() {
           {
             imagen!=""?<div className='imagen-contenedor'>
             <img className='img' src={imagen} alt="cargando..."/>
-          </div>:<p>seleccione categoria</p>
+          </div>:<p>Select Category</p>
           }
          <div>
            <button type='submit'>Search</button>
