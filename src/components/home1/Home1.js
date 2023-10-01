@@ -54,13 +54,13 @@ function Home1() {
      return
    }else{
      mostrarTodo()
+     setcategories("")
    }
  
   }
   const mostrarTodo=()=>{
     aleatorio()
      buscarChiste()
-     setcategories("")
   }
   
   const buscarChiste=()=>{
@@ -68,7 +68,7 @@ function Home1() {
   }
 
   const aleatorio=()=>{
-    const tipoRisa=Math.floor(Math.random()*6);
+    const tipoRisa=Math.round(Math.random()*6);
     setimagen(risas[tipoRisa].imagen)
     setaudio(risas[tipoRisa].audio)
   }
@@ -80,9 +80,11 @@ function Home1() {
          <form onSubmit={mostrar}>
            <Opciones setCategories={setcategories} categories={categories}/>
             <textarea rows="8" cols="" readOnly value={chiste.value}></textarea>
-            <div className='imagen-contenedor'>
-              <img className='img' src={imagen} alt="cargando..."/>
-            </div>
+          {
+            imagen!=""?<div className='imagen-contenedor'>
+            <img className='img' src={imagen} alt="cargando..."/>
+          </div>:<p>seleccione categoria</p>
+          }
          <div>
            <button type='submit'>Search</button>
          </div>
