@@ -22,7 +22,7 @@ function Opciones({setCategories,categories}) {
 
   return (
     <select onChange={(e)=>cambio(e)} value={categories}>
-     <option disabled value=""  hidden defaultValue="" >seleccionar</option>
+     <option disabled value=""  hidden defaultValue="" >Categories</option>
       {
        data.map((data,index)=>{
         return<option key={index} value={data}>{data}</option>
